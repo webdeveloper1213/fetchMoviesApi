@@ -1,0 +1,43 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  background-color: #272727;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.movie-item {
+  background-color: #230052;
+  color: #fff;
+  padding: 1rem;
+
+  border-radius: 12px;
+  margin: 1rem;
+}
+.fetch-error {
+  color: tomato;
+}
+.movieForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form-control {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  width: 90%;
+}
+.form-control label {
+  color: #fff;
+}
+.form-control input,
+.form-control textarea {
+  width: 60%;
+}
